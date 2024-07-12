@@ -1,0 +1,125 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+   background-image: url('login3.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+.container h1{
+	 text-shadow: 5px 5px 5px rgb(0, 0, 0);
+	 font-size: 30px;
+}
+
+nav{
+display: flex;
+}
+img{
+  width:150px;
+  height:100px;
+  margin: 10px 25px 25px 25px;
+}
+
+header {
+   background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(10,54,185,0.5) 12%, rgba(142,142,149,0.5) 28%, rgba(220,220,227,0.5) 41%, rgba(255,255,255,0.5) 50%, rgba(220,220,242,0.2) 59%, rgba(142,142,149,0.5) 68%, rgba(10,54,185,0.5) 89%, rgba(0,0,0,0.5) 100%);
+    color: white;
+    padding-top: 1rem;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+}
+
+nav ul li {
+     margin-right: 20px;
+  border: solid white 1px;
+border-radius:10px;
+	padding:6px;
+	
+  
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+   padding:20px;
+}
+
+li  :hover {
+font-size:120%;
+}
+
+.footer {
+   background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(10,54,185,0.5) 12%, rgba(142,142,149,0.5) 28%, rgba(220,220,227,0.5) 41%, rgba(255,255,255,0.5) 50%, rgba(220,220,242,0.2) 59%, rgba(142,142,149,0.5) 68%, rgba(10,54,185,0.5) 89%, rgba(0,0,0,0.5) 100%);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+	justify-content: center;
+    width: 800px;
+    background: rgba(0, 103, 177, 0.5);
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin: 5% auto;
+}
+
+
+label {
+    margin-bottom: 10px; /* Add spacing below labels */
+    display: block; /* Make labels appear on a new line */
+    color: rgba(0, 255, 255,0.7);
+    font-weight:  bold;
+   text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+
+form input[type="text"] {
+    width: calc(100% - 20px);
+	height: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ form input[name="name"]{
+	width: calc(100% - 20px);
+	height: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+
+form input[type="submit"] {
+    width: 30%;
+    background: rgb(0, 103, 177);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-content: center;
+}
+
+form input[type="submit"]:hover {
+    font-size: 130%;
+}

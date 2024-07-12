@@ -1,0 +1,50 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<link rel="stylesheet" type="text/css" href="login.css?v=2">
+</head>
+<body>
+    <header>
+        <nav>
+          <img src="bank.png">
+            <div class="container">
+                <h1>Online Banking</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="login" method="post">
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" name="uid" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                 <input class="input-group" type="password"  name="pass" ><br><br>
+             <div class="input-group">
+                 <input type="submit" name="submit" value="Login">
+               </div>
+            </div>
+            <div class="regtag">
+            Not Registered..? 
+            <button>Register</button> 
+            </div>
+             
+        </form>
+    </div>
+        <div class="footer">
+        <p>&copy; 2023 United Bank . All rights reserved.</p>
+    </div>
+</body>
+</html> 

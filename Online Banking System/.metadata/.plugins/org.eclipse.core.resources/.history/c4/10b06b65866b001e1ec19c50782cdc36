@@ -1,0 +1,159 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+   background-image: url('login1.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+.container h1{
+	 text-shadow: 5px 5px 5px #ffff;
+}
+
+nav{
+display: flex;
+}
+img{
+  width:100px;
+  height:100px;
+  margin: 10px 25px 25px 25px;
+}
+
+header {
+   background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(10,54,185,0.5) 12%, rgba(142,142,149,0.5) 28%, rgba(220,220,227,0.5) 41%, rgba(255,255,255,0.5) 50%, rgba(220,220,242,0.2) 59%, rgba(142,142,149,0.5) 68%, rgba(10,54,185,0.5) 89%, rgba(0,0,0,0.5) 100%);
+    color: white;
+    padding-top: 1rem;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+}
+
+nav ul li {
+     margin-right: 20px;
+  border: solid white 1px;
+border-radius:10px;
+	padding:6px;
+	
+  
+}
+
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+   padding:20px;
+}
+
+
+
+.footer {
+   background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(10,54,185,0.5) 12%, rgba(142,142,149,0.5) 28%, rgba(220,220,227,0.5) 41%, rgba(255,255,255,0.5) 50%, rgba(220,220,242,0.2) 59%, rgba(142,142,149,0.5) 68%, rgba(10,54,185,0.5) 89%, rgba(0,0,0,0.5) 100%);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+background: rgb(0,103,177,0.5);    
+border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.input-group input[type="submit"] {
+    width: 100%;
+    background: rgb(0,103,177);
+    color: white;
+    padding: 15px; /* Increase padding for a larger button */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    
+}
+
+.input-group input[type="submit"]:hover {
+    font-size :130%;
+    /* You can add additional styles on hover if desired */
+}
+
+/* Optional: Add some spacing between the form elements */
+.input-group input[type="text"],
+.input-group input[type="password"],
+.input-group input[type="submit"] {
+    margin-bottom: 10px;
+}
+
+/* CSS for the register button */
+.regtag {
+    text-align: center;
+    margin: 0 auto; /* Center the container horizontally */
+    margin-top: 20px; /* Optional: Add some top margin */
+}
+.regtag button {
+    background-color: rgb(255,255,255,0.5); /* Green background color */
+    border: black;
+    color: black; /* White text color */
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px; /* Optional: Rounded corners */
+	height :30px;
+	width :70px;
+
+}
+
+/* Change button color on hover */
+.regtag button:hover {
+    background-color: rgb(0,103,177);
+}
+
+

@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+.container {
+    width: 80%;
+  
+    overflow: hidden;
+ 
+}
+nav{
+display: flex;
+}
+img{
+  width:100px;
+  height:100px;
+  margin: 10px 25px 25px 25px;
+}
+header {
+   background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(10,54,185,0.5) 12%, rgba(142,142,149,0.5) 28%, rgba(220,220,227,0.5) 41%, rgba(255,255,255,0.5) 50%, rgba(220,220,242,0.2) 59%, rgba(142,142,149,0.5) 68%, rgba(10,54,185,0.5) 89%, rgba(0,0,0,0.5) 100%);
+    color: white;
+    padding-top: 1rem;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+}
+
+nav ul li {
+    margin-right: 20px;
+  border: solid white 1px;
+border-radius:10px;
+	padding:6px;
+	
+  
+}
+
+nav ul li:last-child {
+   
+  
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+   padding:20px;
+}
+
+.active{
+ background-color: lightblue;
+}
+
+
+.footer {
+   background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(10,54,185,0.5) 12%, rgba(142,142,149,0.5) 28%, rgba(220,220,227,0.5) 41%, rgba(255,255,255,0.5) 50%, rgba(220,220,242,0.2) 59%, rgba(142,142,149,0.5) 68%, rgba(10,54,185,0.5) 89%, rgba(0,0,0,0.5) 100%);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.footer {
+   background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(10,54,185,0.5) 12%, rgba(142,142,149,0.5) 28%, rgba(220,220,227,0.5) 41%, rgba(255,255,255,0.5) 50%, rgba(220,220,242,0.2) 59%, rgba(142,142,149,0.5) 68%, rgba(10,54,185,0.5) 89%, rgba(0,0,0,0.5) 100%);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* CSS for welcome greeting with animation */
+.welcome-container {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    color:rgb(144,194,242,0.7); /* You can set the color to your preference */
+    text-shadow: 5px 5px 5px #0a2351;
+    opacity: 0; /* Initially set the opacity to 0 for fade-in effect */
+    animation: fadeIn 2s ease-in-out forwards; /* Animation for 2 seconds */
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Style for the table */
+.styled-table {
+	animation: fadeIn 2s ease-in-out forwards;
+    width: calc(100% - 500px); /* Adjusted width to accommodate the image */
+    border-collapse: collapse;
+    margin: 20px auto; /* Center the table on the page with margin */
+    color: white;
+    position: relative;
+}
+
+/* Style for table headers and cells */
+.styled-table th, .styled-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Add alternating background colors to table rows */
+.styled-table tr:nth-child(even) {
+    background-color: rgba(28, 185, 247, 0.5);
+}
+
+.styled-table tr:nth-child(odd) {
+    background-color: rgba(134, 134, 134, 0.1);
+}
+
+/* Optional: Add hover effect to table rows */
+.styled-table tr:hover {
+    background-color: #fff;
+    color: black;
+}
+
+
+
+.button-container {
+    text-align: center;
+    margin: 20px;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+.button-row {
+    margin: 10px 0;
+}
+
+button {
+background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(28,185,247,0.9) 50%, rgba(0,2,4,0.9) 100%);
+    border: 2px solid #fff;
+    color: white; /* White text color */
+    padding: 15px 32px; /* Padding inside the button */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 5px 10px; /* Margin between buttons */
+    cursor: pointer;
+    border-radius: 50px; /* Optional: Rounded corners */
+    width: 250px;
+  height: 80px;
+}
+
+/* Change button color on hover */
+button:hover {
+   border: 2px solid #94f6ff;
+   background: radial-gradient(circle, rgba(0,0,0,0.5030462868741247) 0%, rgba(255,255,255,0.5002451664259453) 50%, rgba(0,2,4,0.49744404597776615) 100%);
+}
+
+/* Style the button text inside button-container */
+.button-container button {
+    margin: 5px; /* Optional: Adjust margin for buttons inside .button-container */
+}
